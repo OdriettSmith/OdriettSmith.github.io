@@ -1,0 +1,345 @@
+*,*:before, after {
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(168.42deg,#0d1218 42.81%,#0d86a8 117.9%);
+    justify-content: space-around;
+    font-family:'Russo One', sans-serif;
+    z-index: 10;
+}
+.mein_menu_links {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu_button {
+    margin-right: 30px;
+    font-size: 13px;
+}
+.mein_menu_logo {
+    text-align: center;
+}
+.pic_logo {
+    width: 60%;
+    padding: 20px;
+}
+.content_about {
+    margin-top: 10vh;
+    background: url(pic/fon.jpg);
+    display: flex;
+    width: 100%;
+    padding-top: 3% ;
+}
+.content_about b {
+    font-size: 11px;
+}
+h1 {
+    font-size: 50px;
+    font-family:'Russo One', sans-serif;
+}
+.about {
+    width: 98vh;
+    text-align: left;
+    padding: 2px;
+    margin-left: 10%;
+}
+.infa {
+    display: flex;
+}
+.infa_string img {
+    width: 15%;
+}
+.infa_string b{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.punkt {
+    display: flex;
+    padding: 10px;
+
+}
+.content_map {
+    background: url(pic/fon1.png) 0px 0px no-repeat, 
+    linear-gradient(120.51deg, rgba(13, 18, 24, 0.98) 54.76%,
+     rgb(13, 134, 168) 135.81%,
+     rgba(13, 110, 139, 0.996) 0px);
+    position: relative;
+}
+.conteiner_map {
+    padding: 2%;
+}
+.content_poligon {
+    background:  url(pic/fon1.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 2% ;
+}
+.zag_pol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.polig h2 {
+    font-size: 45px;
+}
+.img_polig {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2%;
+}
+.img_polig span {
+    margin: 2%;
+}
+.note {
+    background: rgba(31,29,54,.7);
+    line-height: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Proxima Regular',sans-serif;
+    padding: 16px 36px 12px;
+    max-width: 460px;
+    color: #fff;
+    border-right: solid #75baf1;
+    margin: 2%;
+}
+.infa_polig {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 4%;
+}
+.strok {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+.polid_zifr {
+    width: 50%;
+}
+.strok1 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.strok_zifr {
+    font-size: 20px;
+    border-left: solid #7a9da7;
+    border-right: solid #7a9da7;
+    background: #ffffff4f;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.polig_text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.polig_text ul li {
+    margin: 2%;
+}
+.content_games {
+    width: 100%;
+    background: url(pic/fon1.png) 0px 0px no-repeat, 
+    linear-gradient(120.51deg, rgba(13, 18, 24, 0.98) 54.76%,
+     rgb(13, 134, 168) 135.81%,
+     rgba(13, 110, 139, 0.996) 0px);
+    padding: 2%;
+    align-items: center;
+}
+.games_string {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.napic {
+    align-items: center;
+    position: relative;
+    margin-top: 0;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    background: #ffffff1a;
+    text-align: center;
+    font-family:'Russo One', sans-serif;
+
+}
+.string {
+    width: 100%;
+}
+.games_st a img {
+    width: 100%;
+}
+.games_st:hover {
+    background: #ffffff1a;
+    border: solid #57dbff 1px;
+}
+.map_zag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.map_menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    font-family:'Russo One', sans-serif;
+}
+.map_menu a:hover {
+    color: #57dbff;
+}
+.map_znak {
+    padding: 4%;
+    width: 100%;
+    background: url(pic/new_map.png) no-repeat;
+    background-size: 100%;
+}
+.map {
+    width: 100%;
+    height: 100%;
+}
+.str {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 10%;
+}
+.texton {
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin: 2%;
+}
+.texton:hover a h3 {
+    font-size: 20px;
+}
+.invents {
+    background: url(pic/fon3.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 2%;
+}
+.ivent_st {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ivent_st a:hover {
+    border: solid 1px #75baf1;
+    padding: 1%;
+}
+.ivent_punkt {
+    text-align: center;
+}
+.ivent_punkt img {
+    width: 100%;
+}
+.data {
+    color: aquamarine;
+    font-family:'Russo One', sans-serif;
+}
+.kontakts {
+    background: url(pic/fon1.jpg);
+    width: 100%;
+    padding-top: 2% ;
+}
+.kont_inf {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+}
+.kont_inf span {
+    padding: 3%;
+}
+hr {
+    margin: 3%;
+    border-width: 1px;
+    color: #7a9da746;
+}
+.footer {
+    width: 100%;
+    background: url(pic/fon1.png) 0px 0px no-repeat, 
+    linear-gradient(120.51deg, rgba(13, 18, 24, 0.98) 54.76%,
+     rgb(13, 134, 168) 135.81%,
+     rgba(13, 110, 139, 0.996) 0px);
+    padding: 2%;
+    align-items: center;
+}
+.foot_2 ul {
+    list-style: none;
+}
+li a {
+    color: slategrey;
+}
+.foot_infa {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot_2 {
+    margin-bottom: 2%;
+}
+.foot_kontakt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+.kontakt {
+    margin: 0 2%;
+}
+.rek {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.none {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.none h2 {
+    width: 100%;
+    color: #000000;
+}
+.none img {
+    height: 90vh;
+}
+.mobile_menu {
+    height: 100%;
+    width: 15%;
+    text-align: center;
+    margin: 2%;
+    display: none;
+}
+.fas {
+    font-size: 25px;
+    color: #ffffff9d;
+}
+
+
+
+
